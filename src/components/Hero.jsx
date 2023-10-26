@@ -53,12 +53,13 @@ const Hero = () => {
 
           <h1 className={`${styles.heroHeadWords} ${textClass}`}>
             {text}
-            <span className="inline-block bg-black text-white w-2 ml-1 animate-blink">
+            <span className="inline-block bg-primary text-white w-2 ml-1 animate-blink">
               |
             </span>
           </h1>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   );
 };
